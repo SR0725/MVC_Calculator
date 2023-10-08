@@ -14,10 +14,10 @@ namespace homework1
     {
         private CalculatorModel _calculatorModel;
 
-        public Form1()
+        public Form1(CalculatorModel calculatorModel)
         {
             InitializeComponent();
-            _calculatorModel = new CalculatorModel();
+            _calculatorModel = calculatorModel;
         }
 
         // when the form is loaded, the following code will be executed
